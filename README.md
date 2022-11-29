@@ -15,7 +15,7 @@ This repository contain analytics tools for extracting informations from BPMN mo
 A Java application to extract informations from a *.bpmn* file.
 
 **Extracted elements:**
-- 267 BPMN Elements from the standard schema;
+- 267 BPMN Elements from the standard xml schema definition;
 - Modeler Type;
 - Model Type;
 - File Size;
