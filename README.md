@@ -56,7 +56,7 @@ java -jar BPMN-SchemaValidator.jar PathToResourceFolder PathToSourceFolderWithBP
 
 A jupyter notebook script for evalute the Pearson Correlation coefficient between BPMN elements.
 
-The script uses the following [data set](https://drive.google.com/drive/folders/1iA7VSMK5ikpOIkcSz2FIXxPO89WcmQQ5) as input data.
+The script uses the following [data set](https://drive.google.com/drive/folders/1iA7VSMK5ikp_OIkcSz2FIXxPO89WcmQQ5) as input data.
 
 [Link to the script](https://github.com/PROSLab/BPMN-Analytics/blob/master/BPMN%20Zipfian%20Distribution/ZipfianDistribution.ipynb)
 
@@ -64,6 +64,6 @@ The script uses the following [data set](https://drive.google.com/drive/folders/
 
 A jupyter notebook script for fitting the Zipfian distribution considering a set of BPMN elements.
 
-The script uses the following [data set](https://drive.google.com/drive/folders/1iA7VSMK5ikpOIkcSz2FIXxPO89WcmQQ5) as input data.
+The script uses the following [data set](https://drive.google.com/drive/folders/1iA7VSMK5ikp_OIkcSz2FIXxPO89WcmQQ5) as input data.
 
 [Link to the script](https://github.com/PROSLab/BPMN-Analytics/blob/master/BPMN%20Zipfian%20Distribution/ZipfianDistribution.ipynb)
