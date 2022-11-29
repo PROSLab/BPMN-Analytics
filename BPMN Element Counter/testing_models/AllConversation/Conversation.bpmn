@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:ext="http://org.eclipse.bpmn2/ext" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:signavio="http://www.signavio.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exporter="Signavio Process Editor, http://www.signavio.com" exporterVersion="15.5.1" expressionLanguage="http://www.w3.org/TR/XPath" id="Definitions_1" targetNamespace="http://org.eclipse.bpmn2/default/choreography" typeLanguage="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+   <collaboration id="sid-e268619d-5346-4e66-8750-d6a49ec9f477"/>
+   <collaboration id="sid-e8eb9b19-6db4-4237-b0ee-ce8bbbc7883a">
+      <extensionElements>
+         <signavio:signavioDiagramMetaData metaKey="iso9000ff" metaValue=""/>
+         <signavio:signavioDiagramMetaData metaKey="processgoal" metaValue=""/>
+         <signavio:signavioDiagramMetaData metaKey="revisionid" metaValue="0cf132c58dc54fab9ec4dae84e7ecb26"/>
+      </extensionElements>
+      <conversation id="Conversation_1" name="nConversationNone">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </conversation>
+      <subConversation id="SubConversation_1" name="nConversationSubProcess">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </subConversation>
+      <callConversation id="sid-508E37E6-168E-416B-B828-2BAAEAC14E87" name="nConversationCall">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </callConversation>
+      <conversationLink id="sid-46B4B453-C64B-4105-A7C4-623B3F391549">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </conversationLink>
+   </collaboration>
+   <bpmndi:BPMNDiagram id="sid-9568364c-51fe-4057-afdc-f1b4b7c47a51">
+      <bpmndi:BPMNPlane bpmnElement="sid-e8eb9b19-6db4-4237-b0ee-ce8bbbc7883a" id="sid-46d3e8eb-0c1b-4cf1-b334-90865f6d090b">
+         <bpmndi:BPMNShape bpmnElement="Participant_1" id="Participant_1_gui">
+            <omgdc:Bounds height="60.0" width="150.0" x="100.0" y="100.0"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="Participant_2" id="Participant_2_gui">
+            <omgdc:Bounds height="60.0" width="150.0" x="100.0" y="229.0"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="Conversation_1" id="Conversation_1_gui">
+            <omgdc:Bounds height="26.860000610351562" width="30.999998211860657" x="330.0" y="410.0"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="SubConversation_1" id="SubConversation_1_gui">
+            <omgdc:Bounds height="26.860000610351562" width="30.999998211860657" x="552.25" y="300.5"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-508E37E6-168E-416B-B828-2BAAEAC14E87" id="sid-508E37E6-168E-416B-B828-2BAAEAC14E87_gui">
+            <omgdc:Bounds height="27.93000030517578" width="32.24999910593033" x="551.25" y="409.0"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-6DE5C1BE-3D20-4E07-966A-F4A16E67B9B9" id="sid-6DE5C1BE-3D20-4E07-966A-F4A16E67B9B9_gui">
+            <omgdc:Bounds height="27.93000030517578" width="32.24999910593033" x="159.0" y="358.0"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNEdge bpmnElement="sid-46B4B453-C64B-4105-A7C4-623B3F391549" id="sid-46B4B453-C64B-4105-A7C4-623B3F391549_gui">
+            <omgdi:waypoint x="467.25" y="130.0"/>
+            <omgdi:waypoint x="667.25" y="130.0"/>
+         </bpmndi:BPMNEdge>
+      </bpmndi:BPMNPlane>
+   </bpmndi:BPMNDiagram>
+</definitions>

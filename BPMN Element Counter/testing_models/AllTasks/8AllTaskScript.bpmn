@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:signavio="http://www.signavio.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exporter="Signavio Process Editor, http://www.signavio.com" exporterVersion="15.7.3" expressionLanguage="http://www.w3.org/TR/XPath" id="sid-2df4ab91-550a-46b4-b0db-2f7521468601" targetNamespace="http://www.signavio.com" typeLanguage="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+   <process id="sid-7ec5c5d5-3189-4627-b57b-dc4729f53e3b" isClosed="false" isExecutable="false" processType="None">
+      <extensionElements>
+         <signavio:signavioDiagramMetaData metaKey="prozessreifegrad" metaValue=""/>
+         <signavio:signavioDiagramMetaData metaKey="iso9000ff" metaValue=""/>
+         <signavio:signavioDiagramMetaData metaKey="processgoal" metaValue=""/>
+         <signavio:signavioDiagramMetaData metaKey="meta-processowner" metaValue=""/>
+         <signavio:signavioDiagramMetaData metaKey="revisionid" metaValue="af3d0e86381a4bbd84b52e936baf658f"/>
+      </extensionElements>
+      <scriptTask completionQuantity="1" id="sid-04CF2082-9707-4293-A1B7-301BB613FBF0" isForCompensation="false" name="nTaskScriptLoopNoneCompensateNone" scriptFormat="" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-risks" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue="[]"/>
+         </extensionElements>
+         <script/>
+      </scriptTask>
+      <scriptTask completionQuantity="1" id="sid-3A8362F6-A693-49F8-8606-8A29959828B5" isForCompensation="true" name="nTaskScriptLoopNoneCompensate" scriptFormat="" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-risks" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue="[]"/>
+         </extensionElements>
+         <script/>
+      </scriptTask>
+      <scriptTask completionQuantity="1" id="sid-399A1216-4783-413C-8085-BE69A2F0B31C" isForCompensation="false" name="nTaskScriptLoopStandardCompensateNone" scriptFormat="" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-risks" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue="[]"/>
+         </extensionElements>
+         <standardLoopCharacteristics id="sid-646553c6-a1d7-4586-8178-fb1ebae249da" testBefore="false"/>
+         <script/>
+      </scriptTask>
+      <scriptTask completionQuantity="1" id="sid-D59E1317-F3AF-4ADE-89D2-5D9E78BAF5E0" isForCompensation="false" name="nTaskScriptLoopMIParallelCompensateNone" scriptFormat="" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-risks" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue="[]"/>
+         </extensionElements>
+         <multiInstanceLoopCharacteristics behavior="All" id="sid-c81de385-350b-43d1-9f18-59cf6622d882" isSequential="false"/>
+         <script/>
+      </scriptTask>
+      <scriptTask completionQuantity="1" id="sid-32EC7332-CA69-4D2B-B126-D33AC407EA74" isForCompensation="false" name="nTaskScriptLoopMISequentialCompensateNone" scriptFormat="" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-risks" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue="[]"/>
+         </extensionElements>
+         <multiInstanceLoopCharacteristics behavior="All" id="sid-0f15c3b5-77a6-4599-a153-633a79503eea" isSequential="true"/>
+         <script/>
+      </scriptTask>
+      <scriptTask completionQuantity="1" id="sid-F4F768DA-E9BC-4DFC-AEF9-563B237AF779" isForCompensation="true" name="nTaskScriptLoopStandardCompensate" scriptFormat="" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-risks" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue="[]"/>
+         </extensionElements>
+         <standardLoopCharacteristics id="sid-09b452fd-62bd-4442-bcee-3524bc87997f" testBefore="false"/>
+         <script/>
+      </scriptTask>
+      <scriptTask completionQuantity="1" id="sid-EB59C5B0-EAD1-4D9D-900A-0E3FDD6A4F8A" isForCompensation="true" name="nTaskScriptLoopMIParallelCompensate" scriptFormat="" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-risks" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue="[]"/>
+         </extensionElements>
+         <multiInstanceLoopCharacteristics behavior="All" id="sid-71cbd142-a79a-4cde-bc15-2fad16b723d9" isSequential="false"/>
+         <script/>
+      </scriptTask>
+      <scriptTask completionQuantity="1" id="sid-DACAE11D-4700-42BA-9D1B-AACC01768D5E" isForCompensation="true" name="nTaskScriptLoopMISequentialCompensate" scriptFormat="" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-risks" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue="[]"/>
+         </extensionElements>
+         <multiInstanceLoopCharacteristics behavior="All" id="sid-484f915b-bbc8-4e7d-840e-80f03cd4cacf" isSequential="true"/>
+         <script/>
+      </scriptTask>
+   </process>
+   <bpmndi:BPMNDiagram id="sid-e197a1b3-dff8-44be-af63-db34d88ea299">
+      <bpmndi:BPMNPlane bpmnElement="sid-7ec5c5d5-3189-4627-b57b-dc4729f53e3b" id="sid-8de6c4eb-2383-4f98-8abf-87db16522769">
+         <bpmndi:BPMNShape bpmnElement="sid-04CF2082-9707-4293-A1B7-301BB613FBF0" id="sid-04CF2082-9707-4293-A1B7-301BB613FBF0_gui">
+            <omgdc:Bounds height="80.0" width="100.0" x="190.0" y="40.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-66763bc0-2d3d-49ef-ae99-48e94635b3ce">
+               <omgdc:Bounds height="36.0" width="85.62857055664062" x="197.1857147216797" y="60.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-3A8362F6-A693-49F8-8606-8A29959828B5" id="sid-3A8362F6-A693-49F8-8606-8A29959828B5_gui">
+            <omgdc:Bounds height="80.0" width="100.0" x="350.0" y="40.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-66763bc0-2d3d-49ef-ae99-48e94635b3ce">
+               <omgdc:Bounds height="36.0" width="85.62857055664062" x="357.1857147216797" y="60.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-399A1216-4783-413C-8085-BE69A2F0B31C" id="sid-399A1216-4783-413C-8085-BE69A2F0B31C_gui">
+            <omgdc:Bounds height="80.0" width="100.0" x="190.0" y="170.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-66763bc0-2d3d-49ef-ae99-48e94635b3ce">
+               <omgdc:Bounds height="36.0" width="81.77142333984375" x="199.11428833007812" y="190.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-D59E1317-F3AF-4ADE-89D2-5D9E78BAF5E0" id="sid-D59E1317-F3AF-4ADE-89D2-5D9E78BAF5E0_gui">
+            <omgdc:Bounds height="80.0" width="100.0" x="190.0" y="300.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-66763bc0-2d3d-49ef-ae99-48e94635b3ce">
+               <omgdc:Bounds height="36.0" width="80.22857666015625" x="199.88571166992188" y="320.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-32EC7332-CA69-4D2B-B126-D33AC407EA74" id="sid-32EC7332-CA69-4D2B-B126-D33AC407EA74_gui">
+            <omgdc:Bounds height="80.0" width="100.0" x="190.0" y="430.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-66763bc0-2d3d-49ef-ae99-48e94635b3ce">
+               <omgdc:Bounds height="36.0" width="87.94285583496094" x="196.02857208251953" y="450.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-F4F768DA-E9BC-4DFC-AEF9-563B237AF779" id="sid-F4F768DA-E9BC-4DFC-AEF9-563B237AF779_gui">
+            <omgdc:Bounds height="80.0" width="100.0" x="350.0" y="170.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-66763bc0-2d3d-49ef-ae99-48e94635b3ce">
+               <omgdc:Bounds height="36.0" width="81.77142333984375" x="359.1142883300781" y="190.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-EB59C5B0-EAD1-4D9D-900A-0E3FDD6A4F8A" id="sid-EB59C5B0-EAD1-4D9D-900A-0E3FDD6A4F8A_gui">
+            <omgdc:Bounds height="80.0" width="100.0" x="350.0" y="300.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-66763bc0-2d3d-49ef-ae99-48e94635b3ce">
+               <omgdc:Bounds height="36.0" width="80.22857666015625" x="359.8857116699219" y="320.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-DACAE11D-4700-42BA-9D1B-AACC01768D5E" id="sid-DACAE11D-4700-42BA-9D1B-AACC01768D5E_gui">
+            <omgdc:Bounds height="80.0" width="100.0" x="350.0" y="430.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-66763bc0-2d3d-49ef-ae99-48e94635b3ce">
+               <omgdc:Bounds height="36.0" width="83.31428527832031" x="358.34285736083984" y="450.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+      </bpmndi:BPMNPlane>
+      <bpmndi:BPMNLabelStyle id="sid-66763bc0-2d3d-49ef-ae99-48e94635b3ce">
+         <omgdc:Font isBold="false" isItalic="false" isStrikeThrough="false" isUnderline="false" name="Arial" size="12.0"/>
+      </bpmndi:BPMNLabelStyle>
+   </bpmndi:BPMNDiagram>
+</definitions>
