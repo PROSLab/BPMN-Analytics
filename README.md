@@ -50,7 +50,7 @@ args[1] = source folder with .bpmn models
 
 args[2] = destination path 
 
-java -jar BPMN-SchemaValidator.jar PathToResourceFolder PathToSourceFolderWithBPMNModels DestinationPath \n
+java -jar BPMN-SchemaValidator.jar PathToResourceFolder PathToSourceFolderWithBPMNModels DestinationPath 
 
 # 3. Pearson Correlation script <a name="pearson"/>
 
@@ -58,7 +58,7 @@ A jupyter notebook script for evalute the Pearson Correlation coefficient betwee
 
 The script uses the following [data set](https://drive.google.com/drive/folders/1iA7VSMK5ikp_OIkcSz2FIXxPO89WcmQQ5) as input data.
 
-[Link to the script](https://github.com/PROSLab/BPMN-Analytics/blob/master/BPMN%20Zipfian%20Distribution/ZipfianDistribution.ipynb)
+[Link to the script](https://github.com/PROSLab/BPMN-Analytics/blob/master/Correlation%20between%20pairs%20of%20BPMN%20elements/BPMNPearsonCorrelation.ipynb)
 
 # 4. Zipfian Distribution script <a name="zipfian"/>
 
