@@ -4,13 +4,13 @@ This repository contain analytics tools for extracting informations from BPMN mo
 
 ### Table of contents
 
-1. [BPMN Element Counter](#counter)
+1. [BPMN Inspector](#inspector)
 2. [BPMN Validator](#validator)
 3. [Pearson Correlation script](#pearson)
 4. [Zipfian Distribution script](#zipfian)
 
 
-# 1. BPMN Element Counter <a name="counter"/>
+# 1. BPMN Inspector <a name="inspector"/>
 
 A Java application to extract informations from a *.bpmn* file.
 
