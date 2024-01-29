@@ -1,6 +1,6 @@
 <h1 align="center">BPMN Analytics Tools</h1>
 
-This repository contain analytics tools for extracting informations from BPMN models.
+This repository contain statistical analysis extracted from BPMN models. To find BPMN Inspector, you can access the following [Repository](https://github.com/PROSLab/BPMN-Inspector)
 
 ### Table of contents
 
@@ -11,6 +11,8 @@ This repository contain analytics tools for extracting informations from BPMN mo
 
 
 # 1. BPMN Inspector <a name="inspector"/>
+
+Note: You can find and try BPMN Inspector, to the following [Repository](https://github.com/PROSLab/BPMN-Inspector)
 
 A Java application to extract informations from a *.bpmn* file.
 
